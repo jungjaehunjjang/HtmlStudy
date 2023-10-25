@@ -1,0 +1,9 @@
+23.08.03
+
+index >> 배열의 n번째 >> 0부터시작 마지막 index = length-1
+[] >> 배열 기호
+document.froms[]   >>배열 (폼을)
+
+trim >> 무의미한 공백 제거
+
+new Array(4) >> 새로운 배열4개를 만들겠다

@@ -1,0 +1,34 @@
+23.08.10
+
+---------Web Storage---------
+
+Key-Value 형식으로 클라이언트 쪽에 자원을 저장하는 API다.(쿠키와 비슷함)
+
+Local Storage >> 방문한 사이트 마다 1개씩 관리
+
+Session Storage  >>세션과 같이 창마다 1개씩 관리
+
+쿠키 >>> 클라이언트가 관리
+세션 >>> 서버가 관리
+
+크기 제한과 유효기간이 없다.
+
+--------------------------------------------------------
+ function getStorage(){
+            try{
+                // 예외가 발생가능한 코드들을 기술하는 곳
+                if(window.session/local Storage)
+                    return window.session/local Storage;
+
+            }catch(e){
+                // try영역에서 예외가 발생했을 때만 수행하는 곳
+                return undefined;
+            }
+
+---------------------------------------------------------
+getStorage 함수
+db.length
+db.getItem(key)
+db.setItem(key.value)
+db.key(index)
+db.clear()

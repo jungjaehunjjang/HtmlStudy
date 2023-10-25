@@ -1,0 +1,28 @@
+23.07.31
+----javascrip---
+
+body안에
+
+<script>
+        // 스크립트 영역
+
+        // 원하는 함수 정의
+        function exe(){
+
+            // 원하는 유효성 검사 실시
+            // 현재문서(document)에서 아이디가 ch01이라는 요소의
+            // 선택되었는지 확인하고자 한다.
+
+            // 1) 먼저 현재문서에서 아이디가 ch01인 요소를 검색하여
+            //    변수 ch1에 저장하자!
+            let ch1 = document.getElementById("ch01");
+            let ch2 = document.getElementById("ch02");
+
+            console.log("ch01:"+ch1.checked);
+            console.log("ch02:"+ch2.checked);
+            // 원하는 페이지로 이동!
+            // a href="" 와 같은 역학을 하는 스크립트 문법
+            //location.href="reg2.html";
+            //location.href="http://www.naver.com";
+        }
+    </script>

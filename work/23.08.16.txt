@@ -1,0 +1,65 @@
+23.08.16
+
+
+
+pwd  >> 현재 내 경로
+ls    >>  리스트
+ls -l >> 상세리스트
+clear >> 지우기
+ls -a >> 숨긴파일까지 다 보여줌  (앞에점이 붙여져있는게 숨겨진파일)
+mkdir 파일이름 >> 폴더를 만든다
+touch >> 파일만들기
+start  >> 현재존재하는 파일 열기
+start hello.txt >> 헬로우 텍스트 열기
+cd .. >> 상위폴더로이동
+cd pororo >> pororo 로이동  or cd ./pororo
+cd ../.. >>뒤로뒤로
+
+절대경로 >> 풀주소
+상대경로 >> 간단한..?       
+방향키 (위아래) >> 전에 사용한 명령어     
+rm >> 파일삭제
+rm -rf >> 폴더삭제
+git init >> git으로 기록
+git commit -m""
+git commit 
+git add.
+git commit --amend  >> 바로직전 커밋 수정
+git ignore
+git add . >> 현재모든파일 추가
+
+
+
+23.08.17
+----------------Branch--------------------
+git branch  >>브랜치 만드는 명령어
+git branch>>브랜치확인
+switch branch 브랜치이름  >> 브랜치이름으로 이동
+git log --oneline --all --graph >> 모든거 보여줌 
+git branch -c >> 브랜치만들고 바로이동
+git commit -am"" >> 바로add하고 commit but 첫 커밋은 안됨 add해야됨
+git branch -d 브랜치이름 >> 브랜치삭제 (작업이없을때)
+git branch -D 브랜치이름 >> 브랜치 삭제 (작업이 있었을때)
+git branch -m 브랜치이름 >> 브랜치 이름변경
+merge 할때 합치는 쪽으로 브랜치 이동하고 명령어 입력 >> git merge 병합할브랜치이름
+git diff >> add를 하지않은 상태에서 이전 커밋과의 비교
+git diff master...브랜치이름 >> 마스터와 브랜치의 비교
+git stash  >> 임시보관???  원래대로 돌아온다?
+git stash pop >> 들어온 역순으로 먼저 빠짐 (1234 >.4321) (나간 stash는 stash목록에서 사라진다)
+git stash list >> stash save 한 리스트 보여줌
+
+
+
+23.08.18
+git restore 파일이름 >> 돌아옴 그러나 전에 파일은 삭제됨(되돌아갈수가 없음)
+git restore . >> 모든파일 복구
+reset >> 잘모된 커밋을 초기화
+git push origin 브랜치이름 >>
+git push -u 브랜치이름 >> 다음작업부터 브랜치이름 안붙이고 git push만 하면된다(주로 활동 하는 구역에 -u를 쓰면됨)
+
+
+
+
+
+
+

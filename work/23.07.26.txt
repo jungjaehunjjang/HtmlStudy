@@ -1,0 +1,16 @@
+23.07.26
+\\192.168.0.231
+
+
+: hover >> 마우스가 올라갔을때 변화
+./ >> 현재문서의 위치
+
+끝까지 옆으로 붙이고 싶을떄 body margin
+
+list-style none >> 숫자지울때
+text-decoration none >> 글자의 밑줄 지울때
+
+우선순위 >> !important
+
+margine: @@px @@px @@px @@px; >>	12시부터 시계방향
+margine: @@px @@px  >> 위아래 좌우

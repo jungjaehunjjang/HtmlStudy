@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 300px;
+            height: 400px;
+            border: 1px solid red;
+            text-align: left;
+            font-size: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    <form method="post">
+        <label for="s_id">아이디</label>
+        <input type="text" id="s_id" name="u_id"/><br/>
+        <label for="s_pw">비밀번호</label>
+        <input type="text" id="s_pw" name="u_pw"/><br/>
+        <label for="s_name">이름</label>
+        <input type="text" id="s_name" name="u_name"/><br/>
+        <label for="s_email">이메일</label>
+        <input type="text" id="s_email" name="u_email"/><br/>
+        <button type="button" onclick="exe(this.form)">확인</button>
+    </form>
+    </div>
+
+    <script>
+        let box = document.getElementById("box");
+
+        function exe(frm){
+        
+        }
+    </script>
+</body>
+</html>

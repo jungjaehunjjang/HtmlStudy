@@ -1,0 +1,22 @@
+23.08.14
+  -------- java -----------
+
+class	 >> 틀
+variable >> 변수
+method 	 >> 함수
+
+new >> 새롭게 만들어야 함
+
+
+----------- 메모리 구조 ------------
+	     (java)
+
+Stack	>> 변수들이 생성되는 곳 
+
+Heap	>> 객체가 생성되는 곳
+
+Static	>> class + ...()      e.g.) Car + main()   << {class Car}  [공유개념] 주머니같은곳?
+
+
+
+*) public static void main(String[] ...){} >> 고정 (내가호출하는게 아니라 *JVM이 호출한다.*)

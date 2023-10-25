@@ -1,0 +1,39 @@
+23.07.25
+
+CSS
+period (점.) 은 css클래스를 의미함
+클래스 = 하나의 틀
+ex) .txt_r  >> 텍스트의 틀 
+e.g.)  text-align: center; >> 글자를 가운대로 조정
+       	 font-weight:bold; >> 글자 폰트 (>> 굵게)
+
+웹 표준어란 웹 사이트에 접속한 사용자는
+어떠한 운영체제나 브라우저를 사용하더라도 웹 페이지가 동일하게 보이고
+정상적으로 동일한 동작을 하게 함을 의미한다
+HTML 	:	 표현할 데이터와 구조
+CSS 	:  	 화면의 표현력		}>> 웹표준
+JavaScript 	: 	동작
+
+
+rowspan / colspan 쓰면은 기준이되는 td빼고 해당하는 td는 지워야한다
+
+th 테이블항목의 헤드라인
+
+ctrl + / >> 커서가 있는 한줄 주석처리 / 주석 제거
+input type="radio" >> name 은 같게 id는 다르게 >> 둘중하나 선택하게됨
+
+rows >> 행수
+cols >> 열수
+textarea 는 반드시 같은줄에서 닫아야함
+e,g,)
+	<textarea id="s_desc" name="u_desc" rows="10" cols="60"></textarea>
+
+input만 쳐도 input type="text"이다
+
+id선택자 >> #
+e.g.) #s_name
+속성선택자 >> []
+e.g.) input[type=text]
+
+table #t1 >> 자손선택자 >> table태그 안에있는 t1적용
+#t1>thead>tr >> 자식선택자 활용 / 문제>> 아이디가 t1인 테이블의 thead에 있는 tr에게 배경색을 지정한다
